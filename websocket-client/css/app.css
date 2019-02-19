@@ -1,0 +1,34 @@
+/* app css stylesheet */
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    margin: 10px 0px;
+}
+
+.pad-left{
+    padding-left: 20px
+}
+
+.pad-right{
+    padding-right: 20px
+}
+
+[bbb-two-axis-control] {
+  width: 352px;
+  height: 288px;
+  background: rgba(0,0,0,0.4);
+  cursor: crosshair;
+  border: 1.5px solid rgba(0,0,0,0.4);
+  margin: 10px;
+}
+body {
+  -webkit-user-select: none;
+}
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
